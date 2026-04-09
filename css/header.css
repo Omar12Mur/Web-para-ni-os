@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-    background-image: url(../Html/background.png);
+    background-image: url(../img/background.png);
     height: 130vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -86,4 +86,5 @@ body {
 
 }
 @media (max-width: 756px) {
-    @media screen and (max-width: 736px)  }
+    
+}

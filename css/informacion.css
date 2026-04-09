@@ -4,8 +4,8 @@
     align-items: center;
     padding: 0 10%;
     background-image: 
-        url('../Html/photo.jpg'),
-        url('../Html/bg-grid.png');
+        url('../img/photo.jpg'),
+        url('../img/bg-grid.png');
     background-position: right 25% center, left -50px center;
     background-repeat: no-repeat;
     background-size: 400px auto, 80% 100%; 

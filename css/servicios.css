@@ -1,0 +1,41 @@
+.service-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 40px; 
+    padding: 50px;
+    background-color: #b2f5f5;
+    justify-items: center; 
+    text-align: center;
+    
+}
+
+
+
+.service-texto {
+    grid-column: 1 / 4; 
+}
+
+
+img {
+    width: 200px;
+    height: 200px;
+
+}
+
+
+button {
+    background-color: #ffb366;
+    border: none;
+    padding: 10px 40px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: inline-block; 
+    transition: transform 0.3s ease; 
+}
+
+
+button:hover {
+    transform: translateY(-10px); /* Se eleva 10px */
+    }
+
+

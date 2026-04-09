@@ -1,0 +1,20 @@
+.footer1 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 50px;
+    height: 10%;    
+    background-color: rgb(100, 81, 81);
+    color: white;
+}
+
+.footer1 a {
+    text-decoration: none; 
+    display: flex;
+    color: white;
+    display: inline-block; 
+    transition: transform 0.3s ease; 
+}
+a:hover {
+    transform: translateY(-3px);
+}

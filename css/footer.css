@@ -18,3 +18,7 @@
 a:hover {
     transform: translateY(-3px);
 }
+
+@media (max-width: 736px) {
+    
+}

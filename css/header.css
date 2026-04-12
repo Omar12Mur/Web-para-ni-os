@@ -89,6 +89,7 @@ body {
 @media (max-width: 756px) {
     .header {
         background-position: 70% center;
+        height: 600px;
     }
     .enlaces {
         flex-direction: column;
@@ -109,13 +110,15 @@ body {
 
     .contenido h1{
         font-size: 60px;
+        
     }
     .contenido p{
         font-size: 30px;
-        padding: 18px;
+        
     }
     .boton {
-        font-size: 20px;
+        font-size: 15px;
         margin: 0 ; 
+        
     }
 }

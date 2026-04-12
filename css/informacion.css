@@ -15,3 +15,18 @@
     max-width: 450px;
     z-index: 2;
 }
+@media (max-width: 768px) {
+    .informacion {
+        height: auto;           
+        flex-direction: column; 
+        padding: 50px ;
+        text-align: center;
+        background-position:center bottom 40px, center;             
+        background-size: 300px auto, cover;           
+    }
+
+    .informacion p {
+        max-width: 100%;
+        margin-bottom: 280px;
+    }
+}

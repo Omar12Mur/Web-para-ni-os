@@ -38,4 +38,25 @@ button:hover {
     transform: translateY(-10px); /* Se eleva 10px */
     }
 
+@media (max-width: 768px) {
+
+    .service-card {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .service-texto {
+        grid-column: 1 / 2; 
+
+    img {
+        width: 150px; 
+        height: auto;
+    }
+
+    button {
+        width: 100%; 
+    }
+}
+}
 

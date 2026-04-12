@@ -8,6 +8,7 @@ body {
 .header {
     background-image: url(../img/background.png);
     height: 130vh;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -86,5 +87,34 @@ body {
 
 }
 @media (max-width: 756px) {
-    
+    .header {
+        background-position: 70% center;
+    }
+    .enlaces {
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+        text-align: center;
+    }
+    .logo {
+        font-size: 40px;
+    }
+    .nav-links a {
+        font-size: 20px;
+        
+    }
+    .contenido{
+        align-items: center;
+    }
+
+    .contenido h1{
+        font-size: 60px;
+    }
+    .contenido p{
+        font-size: 30px;
+        padding: 18px;
+    }
+    .boton {
+        font-size: 20px;
+    }
 }

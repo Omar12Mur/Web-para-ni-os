@@ -22,8 +22,9 @@ a:hover {
 @media (max-width: 736px) {
     .footer1{
         flex-direction: column;
-        gap: 15px;
+        gap: 16px;
         padding: 20px;
+
     }
     .footer1 h3{
         font-size: 20px;

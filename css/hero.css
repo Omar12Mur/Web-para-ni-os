@@ -18,3 +18,12 @@
     font-size: 0.9rem;
     margin: 0;
 }
+@media (max-width: 500px) {
+    .hero {
+        padding: 20px;
+        height: 300px;
+    }
+    .hero h2 {
+        font-size: 39px;
+    }
+}
